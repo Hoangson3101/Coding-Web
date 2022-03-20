@@ -538,6 +538,9 @@ ul.banner-3-content-4 li img {
     height: 450px;
     position: absolute;
     right: 0px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 .banner-6-img-left-row-2-l img{
     width: 285px;
@@ -545,6 +548,9 @@ ul.banner-3-content-4 li img {
     position: absolute;
     top: 475px;
     left: 235px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 .banner-6-img-left-row-2-r img{
     width: 285px;
@@ -552,6 +558,9 @@ ul.banner-3-content-4 li img {
     position: absolute;
     top: 475px;
     right: 0px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 .banner-6-img-left-row-3 img{
     width: 600px;
@@ -559,6 +568,9 @@ ul.banner-3-content-4 li img {
     position: absolute;
     bottom: 100px;
     right: 0px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 .banner-6-img-right{
     width: 38%;
@@ -569,11 +581,17 @@ ul.banner-3-content-4 li img {
 .banner-6-img-right-row-1 img{
     width: 450px;
     height: 450px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 .banner-6-img-right-row-2 img{
     width: 450px;
     height: 530px;
     padding-top: 20px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 .banner-7{
     width: max;
@@ -586,23 +604,124 @@ ul.banner-3-content-4 li img {
     text-align: center;
 }
 .banner-7-content-2{
-    font-size: 60px;
+    font-size: 70px;
     color: #000;
     text-align: center;
     font-weight: bold;
 }
 .banner-7-span{
-   
+   width: 250px;
+   height: 50px;
+   border: 1px linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%) solid;
+   background-image: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%);
+   position: relative;
+   left: 580px;
+   top: 10px;
+   border-radius: 6px;
 }
-.banner-7-span-left
-.banner-7-span-right
-.banner-7-block-1
-.banner-7-block-1-content-1
-.banner-7-block-1-content-2
-.banner-7-block-1-content-3
-.dola-1
-.year-1
-.banner-7-block-1-content-4
-.banner-7-list
-.banner-7-block-1-content-5
-.banner-7-block-1-content-5-button
+.banner-7-span-left{
+    width: 115px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px #fff solid;
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 6px;
+}
+.banner-7-span-right{
+    width: 115px;
+    height: 41px;
+    position: absolute;
+    right: 9px;
+    top: 5px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    border-radius: 6px;
+}
+.banner-7-block-1{
+    width: 300px;
+    height: 600px;
+    background-color: #fff;
+    border: 1px rgb(136, 1, 1) solid;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.banner-7-block-1-content-1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    padding-top: 20px;
+}
+/* .banner-7-block-1-content-2{
+    width: 150px;
+    height: 150px;
+    border: 1px red solid;
+} */
+.banner-7-block-1-content-2 img{
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    left: 80px;
+    top: 70px;
+}
+.banner-7-block-1-content-3{
+    width: 200px;
+    height: 80px;
+    border-bottom: 1px rgb(92, 92, 94) solid;
+    position: absolute;
+    left: 45px;
+    bottom: 300px;
+}
+.dola-1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #f8ae56;
+    float: left;
+}
+.year-1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #0f0f0f;
+    float: right;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+.banner-7-block-1-content-4{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+}
+ul.banner-7-list{
+    list-style: none;
+    list-style-image: url('./');
+}
+.banner-7-block-1-content-5{
+   width: 200px;
+   height: 70px;
+   position: absolute;
+   left: 30px;
+   bottom: 20px;
+}
+.banner-7-block-1-content-5-button{
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    border: 1px linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%) solid;
+    background-image: linear-gradient(to right, #f55f8d 0, #f8ae56 51%, #f55f8d 100%);
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    position: absolute;
+    left: 35px;
+    bottom: 0px;
+}
