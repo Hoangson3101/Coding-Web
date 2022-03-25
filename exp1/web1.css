@@ -1,5 +1,5 @@
 .ig {
-    width: 100%;
+    width: 965px;
     height: 100%;
     box-sizing: border-box;
     margin: 0;
@@ -11,7 +11,7 @@
 }
 
 .page-wraper {
-    width: 100%;
+    width: 965px;
     height: 100%;
     box-sizing: border-box;
     color: black;
@@ -22,7 +22,7 @@
     padding: 0;
     /* overflow-y: scroll; */
 }
-
+/*--------------------------------------header---------------------------------------------*/
 .block-header {
     width: 99.8%;
     height: 95px;
@@ -30,6 +30,10 @@
     margin: 0px;
     padding: 0px;
     position: relative;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
 }
 
 .header-image {
@@ -68,9 +72,9 @@
     transform: translateY(-50%);
     text-decoration: none;
 }
-
+/*----header-menu-------*/
 .header-menu {
-    height: 94px;
+    height: 84px;
     color: blue;
     font-weight: 900px;
     position: absolute;
@@ -84,7 +88,13 @@ ul.menu {
     position: relative;
     margin: 0px;
 }
-
+.horizontal-arrow img {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
 .arrow-down img {
     width: 10px;
     height: 10px;
@@ -172,23 +182,32 @@ ul.submenu-1>li>a {
     background-color: #fff;
     border-bottom: 1px rgb(238, 238, 238) solid;
 }
-
-.Block-banner {}
-
+/*---------------------Banner--------------------------------------------------------------*/
+.Block-banner {
+    width: 965px;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+/*--------------------------Banner-1------------------------------------*/
 .banner-1 {
     position: relative;
+    width: 965px;
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .man-one {
     position: absolute;
-    right: 80px;
-    top: -100px;
+    left: 850px;
+    top: -50px;
 }
 
 .on-man-one {
     position: absolute;
-    right: -30px;
-    top: -100px;
+    left: 700px;
+    top: -50px;
 }
 
 .banner-1-content {
@@ -250,7 +269,7 @@ ul.content-4 li img {
     left: 50px;
     top: 30px;
 }
-
+/*----------------------------------Banner-2-------------------------------*/
 .banner-2 {
     padding: 50px;
 }
@@ -352,7 +371,7 @@ ul.content-4 li img {
     color: #1e3192;
     font-size: 16px;
 }
-
+/*-----------------------Banner-3-------------------------------*/
 .banner-3 {
     margin-top: 470px;
     position: relative;
@@ -425,7 +444,7 @@ ul.banner-3-content-4 li img {
     color: white;
     text-decoration: none;
 }
-
+/*---------------------------Banner-4-------------------------*/
 .banner-4 {
     height: 425px;
     background-image: url('./background-banner-4.png');
@@ -433,6 +452,7 @@ ul.banner-3-content-4 li img {
     position: relative;
     background-color: rgb(247, 235, 222);
 }
+/*------------------------Banner-5-------------------------*/
 .banner-5{
     width: max;
     height: 680px;
@@ -509,6 +529,7 @@ ul.banner-3-content-4 li img {
   right: 0px;
   top: 0px;
 }
+/*-------------------------------------Banner-6------------------------------------*/
 .banner-6{
     width: max;
     height: 1070px;
@@ -593,6 +614,7 @@ ul.banner-3-content-4 li img {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
 }
+/*----------------------------Banner-7-----------------------*/
 .banner-7{
     width: max;
     height: 700px;
@@ -642,9 +664,10 @@ ul.banner-3-content-4 li img {
     color: white;
     border-radius: 6px;
 }
+
 .banner-7-block-1{
     width: 300px;
-    height: 600px;
+    height: 599px;
     background-color: #fff;
     border: 1px rgb(136, 1, 1) solid;
     border-radius: 5px;
@@ -659,11 +682,6 @@ ul.banner-3-content-4 li img {
     text-align: center;
     padding-top: 20px;
 }
-/* .banner-7-block-1-content-2{
-    width: 150px;
-    height: 150px;
-    border: 1px red solid;
-} */
 .banner-7-block-1-content-2 img{
     width: 125px;
     height: 125px;
@@ -701,7 +719,9 @@ ul.banner-3-content-4 li img {
 }
 ul.banner-7-list{
     list-style: none;
-    list-style-image: url('./');
+    list-style-image: url('./banner-7-icon-\ mark-pink.png');
+    line-height: 1.75;
+    font-size: 18px;
 }
 .banner-7-block-1-content-5{
    width: 200px;
@@ -724,4 +744,48 @@ ul.banner-7-list{
     position: absolute;
     left: 35px;
     bottom: 0px;
+}
+.banner-7-block-2{
+    width: 310px;
+    height: 600px;
+    background-color: #fff;
+    border: 1px rgb(136, 1, 1) solid;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 520px;
+    margin-top: -600px;
+    
+}
+.banner-7-block-3{
+    width: 320px;
+    height: 600px;
+    background-color: #fff;
+    border: 1px rgb(136, 1, 1) solid;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 870px;
+    margin-top: -602px;
+}
+.banner-7-block-3-content-3{
+    width: 200px;
+    height: 80px;
+    border-bottom: 1px rgb(92, 92, 94) solid;
+    position: absolute;
+    left: 45px;
+    bottom: 300px;
+}
+.dola-3{
+    font-size: 50px;
+    font-weight: bold;
+    color: #f8ae56;
+    float: left;
+}
+.year-3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #0f0f0f;
+    float: right;
+    position: absolute;
+    top: 30px;
+    left: 115px;
 }
